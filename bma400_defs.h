@@ -780,8 +780,8 @@ struct bma400_acc_conf
 
     /* Range of sensor
      * Assignable macros :
-     *  - BMA400_2G_RANGE   - BMA400_8G_RANGE
-     *  - BMA400_4G_RANGE   - BMA400_16G_RANGE
+     *  - BMA400_RANGE_2G   - BMA400_RANGE_8G
+     *  - BMA400_RANGE_4G   - BMA400_RANGE_16G
      */
     uint8_t range;
 
